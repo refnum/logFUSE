@@ -1592,7 +1592,6 @@ static int logfuse_fsetattr_x(const char *path, setattr_x *theAttributes, fuse_f
 			goto done;
 		}
 
-
 	if (SETATTR_WANTS_CRTIME(theAttributes))
 		{
 		sysErr = logfuse_fset_timespec(fileInfo->fh, ATTR_CMN_CRTIME, theAttributes->crtime);
