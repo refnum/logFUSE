@@ -1,0 +1,168 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABCEE25B1E58A14A00860F9D /* logfuse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABCEE25A1E58A14A00860F9D /* logfuse.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		ABCEE2501E58A13300860F9D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		ABCEE24B1E58A11500860F9D /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		ABCEE24D1E58A11500860F9D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		ABCEE25A1E58A14A00860F9D /* logfuse.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = logfuse.cpp; sourceTree = "<group>"; };
+		ABCEE25C1E58A16F00860F9D /* logfuse.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = logfuse.xcconfig; sourceTree = "<group>"; };
+		ABCEE25D1E58A1A200860F9D /* logfuse */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = logfuse; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABCEE24F1E58A13300860F9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABCEE2441E58A0FD00860F9D = {
+			isa = PBXGroup;
+			children = (
+				ABCEE25A1E58A14A00860F9D /* logfuse.cpp */,
+				ABCEE25C1E58A16F00860F9D /* logfuse.xcconfig */,
+				ABCEE24B1E58A11500860F9D /* LICENSE.md */,
+				ABCEE24D1E58A11500860F9D /* README.md */,
+				ABCEE25D1E58A1A200860F9D /* logfuse */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABCEE2511E58A13300860F9D /* logfuse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABCEE2571E58A13300860F9D /* Build configuration list for PBXNativeTarget "logfuse" */;
+			buildPhases = (
+				ABCEE24E1E58A13300860F9D /* Sources */,
+				ABCEE24F1E58A13300860F9D /* Frameworks */,
+				ABCEE2501E58A13300860F9D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = logfuse;
+			productName = logfuse;
+			productReference = ABCEE25D1E58A1A200860F9D /* logfuse */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABCEE2451E58A0FD00860F9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				TargetAttributes = {
+					ABCEE2511E58A13300860F9D = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = ABCEE2481E58A0FD00860F9D /* Build configuration list for PBXProject "logfuse" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ABCEE2441E58A0FD00860F9D;
+			productRefGroup = ABCEE2441E58A0FD00860F9D;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABCEE2511E58A13300860F9D /* logfuse */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABCEE24E1E58A13300860F9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABCEE25B1E58A14A00860F9D /* logfuse.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		ABCEE2491E58A0FD00860F9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		ABCEE24A1E58A0FD00860F9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		ABCEE2581E58A13300860F9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABCEE25C1E58A16F00860F9D /* logfuse.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		ABCEE2591E58A13300860F9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABCEE25C1E58A16F00860F9D /* logfuse.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABCEE2481E58A0FD00860F9D /* Build configuration list for PBXProject "logfuse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABCEE2491E58A0FD00860F9D /* Debug */,
+				ABCEE24A1E58A0FD00860F9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABCEE2571E58A13300860F9D /* Build configuration list for PBXNativeTarget "logfuse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABCEE2581E58A13300860F9D /* Debug */,
+				ABCEE2591E58A13300860F9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABCEE2451E58A0FD00860F9D /* Project object */;
+}

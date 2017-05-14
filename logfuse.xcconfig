@@ -1,0 +1,34 @@
+//============================================================================
+//		Compiler
+//----------------------------------------------------------------------------
+GCC_PREPROCESSOR_DEFINITIONS_Debug		= FUSE_DEBUG=1
+GCC_PREPROCESSOR_DEFINITIONS_Release	=
+GCC_PREPROCESSOR_DEFINITIONS_Common		= FUSE_USE_VERSION=26 FUSE_APPLE=1 _DARWIN_USE_64_BIT_INODE=1 _FILE_OFFSET_BITS=64
+GCC_PREPROCESSOR_DEFINITIONS			= $(GCC_PREPROCESSOR_DEFINITIONS_$(CONFIGURATION)) $(GCC_PREPROCESSOR_DEFINITIONS_Common)
+
+GCC_OPTIMIZATION_LEVEL_Debug			= 0
+GCC_OPTIMIZATION_LEVEL_Release			= s
+GCC_OPTIMIZATION_LEVEL					= $(GCC_OPTIMIZATION_LEVEL_$(CONFIGURATION))
+
+HEADER_SEARCH_PATHS						= /usr/local/include/osxfuse/fuse
+WARNING_CFLAGS							= -Wall -Werror
+
+GCC_C_LANGUAGE_STANDARD					= c11
+CLANG_CXX_LANGUAGE_STANDARD				= c++14
+CLANG_CXX_LIBRARY						= libc++
+
+
+
+
+
+//============================================================================
+//		Linker
+//----------------------------------------------------------------------------
+PRODUCT_NAME							= logfuse
+
+LIBRARY_SEARCH_PATHS					= /usr/local/lib
+OTHER_LDFLAGS							= -losxfuse
+
+
+
+
