@@ -3,7 +3,9 @@ osx_image: xcode11.2
 
 language: objective-c
 script:
-- set -o pipefail
-- xcodebuild -workspace logfuse.xcworkspace -scheme logfuse -destination platform\=macOS build | xcpretty
+  - set -o pipefail
+  - xcodebuild -project logfuse.xcodeproj -scheme logfuse -destination platform\=macOS build | xcpretty
+
+
 
 
