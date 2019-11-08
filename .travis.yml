@@ -2,10 +2,10 @@ os: osx
 osx_image: xcode11.2
 language: objective-c
 
-addson:
+addons:
   homebrew:
     casks:
-      - osxfuse
+    - osxfuse
 
 script:
   - set -o pipefail
