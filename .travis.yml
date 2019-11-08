@@ -1,0 +1,3 @@
+language: cpp
+os: osx
+osx_image: xcode11.2
