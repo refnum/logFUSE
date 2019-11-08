@@ -5,7 +5,7 @@
 		Logging/passthrough filesystem for FUSE.
 
 	COPYRIGHT:
-		Copyright (c) 2017, refNum Software
+		Copyright (c) 2017-2019, refNum Software
 		<http://www.refnum.com/>
 
 		All rights reserved. Released under the terms of LICENSE.md.
