@@ -2,6 +2,13 @@ os: osx
 osx_image: xcode11.2
 language: objective-c
 
+before_cache:
+  - brew cleanup
+
+cache:
+  directories:
+    - $HOME/Library/Caches/Homebrew
+
 addons:
   homebrew:
     casks:
