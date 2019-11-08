@@ -1,11 +1,13 @@
 os: osx
 osx_image: xcode11.2
-
 language: objective-c
+
+addson:
+	homebrew:
+		casks:
+			- osxfuse
+
 script:
-  - set -o pipefail
-  - xcodebuild -project logfuse.xcodeproj -scheme logfuse -destination platform\=macOS build | xcpretty
-
-
-
+	- set -o pipefail
+	- xcodebuild -project logfuse.xcodeproj -scheme logfuse -destination platform\=macOS build | xcpretty
 
