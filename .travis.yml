@@ -1,7 +1,7 @@
 os: osx
 osx_image: xcode11.2
 
-language: cpp
+language: objective-c
 xcode_project: logfuse.xcodeproj
 xcode_scheme: logfuse
 xcode_destination: platform=macOS
